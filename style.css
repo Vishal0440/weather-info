@@ -9,22 +9,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(90deg, rgba(3,3,4,0.45014245014245013) 0%, rgba(255,0,0,0.5284900284900285) 100%);
+    background: linear-gradient(180deg, rgba(68, 222, 212, 0.45) 0%, rgba(124, 80, 103, 0.528) 100%);
     padding: 20px;
 }
 .page{
-    width: 400px;
-    height: 500px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    width: 420px;
+    height: 480px;
     border-radius: 10px;
-    background: linear-gradient(90deg, rgba(11, 159, 200, 0.397) 0%, rgb(238, 122, 122) 50%, rgba(149, 211, 169, 0.5) 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background: linear-gradient(45deg, rgba(11, 159, 200, 0.397) 0%, rgba(65, 236, 119, 0.355) 100%);
 }
 h1{
     text-align: center;
-    color: #fae630;
+    color: #fa3081;
     font-family: cursive;
-    border-bottom: 1px double rgb(0, 255, 13);
+    border-bottom: 2px double rgb(255, 0, 119);
     padding: 0.5rem;
+    font-weight: 600;
 }
 .form-input {
     margin-top: 20px;
@@ -33,22 +34,23 @@ h1{
 #search {
     width: 85%;
     font-size: 1rem;
-    padding: 10px 15px;
-    border-radius: 1rem;
+    padding: 10px 12px;
+    border-radius: 10px;
     border: none;
     outline: none;
 }
 .search_btn{
-    width: 50px;
+    width: 40px;
     padding: 10px;
-    border-radius: 1rem;
+    border-radius: 10px;
     border: none;
     cursor: pointer;
-    background-color: rgba(231, 62, 118, 0.744);
+    margin-left: 5px;
+    background-color: rgb(255, 0, 119);
 }
 .search_btn i{
     font-size: 18px;
-    color: #30c4fa;
+    color: rgb(43, 236, 107);
 }
 .data{
     text-align: center;
@@ -59,7 +61,7 @@ h1{
     align-items: center;
     gap: 10px;
     margin-top: 20px;
-    background-color: rgba(113, 231, 62, 0.141);
+    background-color: rgba(213, 217, 218, 0.796);
 
 }
 .info{
@@ -71,25 +73,25 @@ h1{
 }
 .col{
     padding: 15px;
-    border-radius: 50%;
     margin-top: 20px;
-    box-shadow: rgba(170, 255, 0, 0.485) 0px 25px 50px -12px;
-    background-color: rgba(12, 65, 212, 0.163);
-    color: #fae630;
+    border-radius: 10px 30px;
+    color: rgb(255, 0, 119);
     font-family: cursive;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background: linear-gradient(45deg, rgba(11, 159, 200, 0.397) 0%, rgba(65, 236, 119, 0.355) 100%);
 }
 h3{
-    color: #fae630;
+    color: rgb(255, 0, 119);
     font-family: cursive;
 }
 h2{
     text-align: center;
-    color: #fae630;
+    color: rgb(255, 0, 119);
     font-family: cursive;
     padding: 5px;
 }
 h4{
-    color: #fae630;
+    color: rgb(255, 0, 119);
     font-family: cursive;
     letter-spacing: 1px;
 }
